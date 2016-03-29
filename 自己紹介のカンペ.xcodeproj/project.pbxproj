@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C23C2391C81987D0059AE0E /* Lic.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C23C2381C81987D0059AE0E /* Lic.png */; };
+		7C23C2391C81987D0059AE0E /* Lic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C23C2381C81987D0059AE0E /* Lic@2x.png */; };
 		7C23C23B1C8198BA0059AE0E /* LicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C23C23A1C8198BA0059AE0E /* LicViewController.swift */; };
 		7C3A5FF81C3AD3E600B01F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3A5FF71C3AD3E600B01F38 /* AppDelegate.swift */; };
 		7C3A5FFA1C3AD3E600B01F38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3A5FF91C3AD3E600B01F38 /* ViewController.swift */; };
@@ -22,6 +22,10 @@
 		7C3A601C1C3AD4F000B01F38 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3A60191C3AD4F000B01F38 /* Default-667h@2x.png */; };
 		7C3A601D1C3AD4F000B01F38 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3A601A1C3AD4F000B01F38 /* Default-736h@3x.png */; };
 		7C47A8411C4A9CCC00E0695E /* cp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C47A8401C4A9CCC00E0695E /* cp@2x.png */; };
+		7C5877B51C8B03D100164843 /* icon_154431_48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5877B41C8B03D100164843 /* icon_154431_48.png */; };
+		7C5877BD1C8B138B00164843 /* icon_154521_48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5877BC1C8B138B00164843 /* icon_154521_48.png */; };
+		7C5877BE1C8B164900164843 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5877B61C8B10FB00164843 /* AVFoundation.framework */; };
+		7C6ACA621C9710FA00E77D56 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6ACA611C9710FA00E77D56 /* SCLAlertView.swift */; };
 		7C6D7B521C721F9200F85D01 /* icon_163001_48@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6D7B511C721F9200F85D01 /* icon_163001_48@2x.png */; };
 		7C6D7B581C74A78D00F85D01 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6D7B571C74A78D00F85D01 /* GuideViewController.swift */; };
 		7CBAFEC91C4A1B0E00AD4117 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAFEC81C4A1B0E00AD4117 /* StartViewController.swift */; };
@@ -41,7 +45,7 @@
 
 /* Begin PBXFileReference section */
 		4302D0CAEB3E62845432553F /* Pods-自己紹介のカンペ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自己紹介のカンペ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-自己紹介のカンペ/Pods-自己紹介のカンペ.debug.xcconfig"; sourceTree = "<group>"; };
-		7C23C2381C81987D0059AE0E /* Lic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lic.png; sourceTree = "<group>"; };
+		7C23C2381C81987D0059AE0E /* Lic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lic@2x.png"; sourceTree = "<group>"; };
 		7C23C23A1C8198BA0059AE0E /* LicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicViewController.swift; sourceTree = "<group>"; };
 		7C3A5FF41C3AD3E600B01F38 /* 自己紹介のカンペ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自己紹介のカンペ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3A5FF71C3AD3E600B01F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,12 @@
 		7C3A60191C3AD4F000B01F38 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		7C3A601A1C3AD4F000B01F38 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		7C47A8401C4A9CCC00E0695E /* cp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cp@2x.png"; sourceTree = "<group>"; };
+		7C5877B41C8B03D100164843 /* icon_154431_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_154431_48.png; sourceTree = "<group>"; };
+		7C5877B61C8B10FB00164843 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7C5877B81C8B110A00164843 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		7C5877BA1C8B111200164843 /* PKHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PKHUD.framework; path = "Pods/../build/Debug-iphoneos/PKHUD.framework"; sourceTree = "<group>"; };
+		7C5877BC1C8B138B00164843 /* icon_154521_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_154521_48.png; path = ../../../../../Downloads/icon_154521_48.png; sourceTree = "<group>"; };
+		7C6ACA611C9710FA00E77D56 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
 		7C6D7B511C721F9200F85D01 /* icon_163001_48@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_163001_48@2x.png"; sourceTree = "<group>"; };
 		7C6D7B571C74A78D00F85D01 /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
 		7CBAFEC81C4A1B0E00AD4117 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5877BE1C8B164900164843 /* AVFoundation.framework in Frameworks */,
 				7CC0C11F1C4A532000E79561 /* Social.framework in Frameworks */,
 				7CC0C11D1C4A531700E79561 /* MessageUI.framework in Frameworks */,
 				CDED72FEE773D42ACCBC405D /* Pods__________.framework in Frameworks */,
@@ -93,6 +104,9 @@
 		619DF0BC581593F1E42A0708 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C5877BA1C8B111200164843 /* PKHUD.framework */,
+				7C5877B81C8B110A00164843 /* AVKit.framework */,
+				7C5877B61C8B10FB00164843 /* AVFoundation.framework */,
 				962CAB64FDACF87ED83B936F /* Pods__________.framework */,
 			);
 			name = Frameworks;
@@ -128,12 +142,15 @@
 				7CBAFECA1C4A1C5A00AD4117 /* SettingViewController.swift */,
 				7C23C23A1C8198BA0059AE0E /* LicViewController.swift */,
 				7CBAFEC81C4A1B0E00AD4117 /* StartViewController.swift */,
+				7C6ACA611C9710FA00E77D56 /* SCLAlertView.swift */,
 				7C47A8401C4A9CCC00E0695E /* cp@2x.png */,
 				7CC0C1201C4A553800E79561 /* She@2x.png */,
-				7C23C2381C81987D0059AE0E /* Lic.png */,
+				7C23C2381C81987D0059AE0E /* Lic@2x.png */,
+				7C5877B41C8B03D100164843 /* icon_154431_48.png */,
 				7C3A60141C3AD46D00B01F38 /* icon_122481_48@2x.png */,
 				7CC0C1241C4A55F100E79561 /* icon_133001_48@2x.png */,
 				7C6D7B511C721F9200F85D01 /* icon_163001_48@2x.png */,
+				7C5877BC1C8B138B00164843 /* icon_154521_48.png */,
 				7CC0C1261C4A5AD200E79561 /* tit@2x.png */,
 				7C3A60181C3AD4F000B01F38 /* Default-568h@2x.png */,
 				7C3A60191C3AD4F000B01F38 /* Default-667h@2x.png */,
@@ -226,10 +243,12 @@
 			files = (
 				7C3A60121C3AD43600B01F38 /* Cre@2x.png in Resources */,
 				7CC0C12B1C4A61C400E79561 /* Main3.5.storyboard in Resources */,
+				7C5877BD1C8B138B00164843 /* icon_154521_48.png in Resources */,
+				7C5877B51C8B03D100164843 /* icon_154431_48.png in Resources */,
 				7C6D7B521C721F9200F85D01 /* icon_163001_48@2x.png in Resources */,
 				7CC0C1251C4A55F100E79561 /* icon_133001_48@2x.png in Resources */,
 				7C3A60151C3AD46D00B01F38 /* icon_122481_48@2x.png in Resources */,
-				7C23C2391C81987D0059AE0E /* Lic.png in Resources */,
+				7C23C2391C81987D0059AE0E /* Lic@2x.png in Resources */,
 				7C3A60051C3AD3E700B01F38 /* LaunchScreen.storyboard in Resources */,
 				7C3A601C1C3AD4F000B01F38 /* Default-667h@2x.png in Resources */,
 				7C3A60021C3AD3E700B01F38 /* Assets.xcassets in Resources */,
@@ -302,6 +321,7 @@
 			files = (
 				7CBAFECB1C4A1C5A00AD4117 /* SettingViewController.swift in Sources */,
 				7C6D7B581C74A78D00F85D01 /* GuideViewController.swift in Sources */,
+				7C6ACA621C9710FA00E77D56 /* SCLAlertView.swift in Sources */,
 				7C23C23B1C8198BA0059AE0E /* LicViewController.swift in Sources */,
 				7C3A60001C3AD3E700B01F38 /* _________.xcdatamodeld in Sources */,
 				7CBAFEC91C4A1B0E00AD4117 /* StartViewController.swift in Sources */,
@@ -373,6 +393,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "4083ca12-0a01-49e9-aaf1-47b80cc9c816";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -410,6 +431,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "4083ca12-0a01-49e9-aaf1-47b80cc9c816";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -421,11 +443,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "自己紹介のカンペ/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.zikosho;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -435,11 +462,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "自己紹介のカンペ/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.zikosho;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -414,6 +414,7 @@ class ResultViewController: UIViewController, AVSpeechSynthesizerDelegate {
         
     @IBAction func selectBtn(sender: UIButton) {
         
+        let alertView = SCLAlertView()
         if number2 == 1{
             let alertView = SCLAlertView()
             alertView.addButton("OK") {
@@ -422,8 +423,6 @@ class ResultViewController: UIViewController, AVSpeechSynthesizerDelegate {
             
             alertView.showError("シェアできません", subTitle: "不適切な単語が含まれています。\n文章を変更してから\nもう一度お試しください。")
         }else{
-        
-        let alertView = SCLAlertView()
         alertView.addButton("Twitter") {
             let text = self.label.text! + "「自己紹介のカンペ」ダウンロードしてね！ #自己紹介のカンペ https://itunes.apple.com/us/app/zi-ji-shao-jienokanpe/id1076095651?l=ja&ls=1&mt=8"
             
@@ -450,6 +449,7 @@ class ResultViewController: UIViewController, AVSpeechSynthesizerDelegate {
         alertView.addButton("もどる"){
         }
         alertView.showNotice("シェアで自己紹介!", subTitle: "SNSをえらんでください!")
+        }
         
 //        let alertController = UIAlertController(title: "出てきた文をシェアする!", message: "シェアしたいSNSを選んでください。", preferredStyle: .ActionSheet)
 //        let firstAction = UIAlertAction(title: "Twitter", style: .Default) {
@@ -470,25 +470,24 @@ class ResultViewController: UIViewController, AVSpeechSynthesizerDelegate {
 //                UIApplication.sharedApplication().openURL( messageURL )
 //                NSLog("LINE入ってるぜえ")
 //            }else {
-////                NSLog("LINEねえのかよつまんねえな")
-////                let alertController = UIAlertController(title: "シェアできません", message: "LINEがインストールされていません。", preferredStyle: .Alert)
-////                
-////                let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
-////                alertController.addAction(defaultAction)
-////                
-////                self.presentViewController(alertController, animated: true, completion: nil)
-////            }
-//            let alertView = SCLAlertView()
-//            alertView.addButton("OK") {
+//                NSLog("LINEねえのかよつまんねえな")
+//                let alertController = UIAlertController(title: "シェアできません", message: "LINEがインストールされていません。", preferredStyle: .Alert)
+//                
+//                let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
+//                alertController.addAction(defaultAction)
+//                
+//                self.presentViewController(alertController, animated: true, completion: nil)
+//                let alertView = SCLAlertView()
+//                alertView.addButton("OK") {
+//                }
+//                alertView.showError("シェアできません", subTitle: "LINEがインストール\nされていません。")
 //            }
-//            alertView.showInfo("シェアできません", subTitle: "LINEがインストール\nされていません。")
-//        }
 //        }
 //        
 //        let cancelAction = UIAlertAction(title: "戻る", style: .Cancel) {
 //            action in
 //        }
-//        
+//
 //        alertController.addAction(firstAction)
 //        alertController.addAction(secondAction)
 //        alertController.addAction(cancelAction)
@@ -500,7 +499,6 @@ class ResultViewController: UIViewController, AVSpeechSynthesizerDelegate {
 //        
 //        presentViewController(alertController, animated: true, completion: nil)
         }
-    }
 
 
     @IBAction func back(){
@@ -509,6 +507,14 @@ class ResultViewController: UIViewController, AVSpeechSynthesizerDelegate {
     }
     
     @IBAction func didTapButton(sender: UIButton){
+        if number2 == 1{
+            let alertView = SCLAlertView()
+            alertView.addButton("OK") {
+                self.dismissViewControllerAnimated(true, completion: nil)
+            }
+            
+            alertView.showError("読み上げできません", subTitle: "不適切な単語が含まれています。\n文章を変更してから\nもう一度お試しください。")
+        }else{
         if talker.speaking {
             self.talker.stopSpeakingAtBoundary(.Immediate)
             
@@ -525,6 +531,7 @@ class ResultViewController: UIViewController, AVSpeechSynthesizerDelegate {
         utterance.pitchMultiplier = 1.2
 
         self.talker.speakUtterance(utterance)
+        }
         }
         
     }

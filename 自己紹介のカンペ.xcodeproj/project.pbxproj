@@ -23,11 +23,12 @@
 		7C3A601D1C3AD4F000B01F38 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3A601A1C3AD4F000B01F38 /* Default-736h@3x.png */; };
 		7C47A8411C4A9CCC00E0695E /* cp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C47A8401C4A9CCC00E0695E /* cp@2x.png */; };
 		7C5877B51C8B03D100164843 /* icon_154431_48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5877B41C8B03D100164843 /* icon_154431_48.png */; };
-		7C5877BD1C8B138B00164843 /* icon_154521_48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5877BC1C8B138B00164843 /* icon_154521_48.png */; };
 		7C5877BE1C8B164900164843 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5877B61C8B10FB00164843 /* AVFoundation.framework */; };
 		7C6ACA621C9710FA00E77D56 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6ACA611C9710FA00E77D56 /* SCLAlertView.swift */; };
 		7C6D7B521C721F9200F85D01 /* icon_163001_48@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6D7B511C721F9200F85D01 /* icon_163001_48@2x.png */; };
 		7C6D7B581C74A78D00F85D01 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6D7B571C74A78D00F85D01 /* GuideViewController.swift */; };
+		7C8D33631CCD07D200933B85 /* icon_154521_48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8D33621CCD07D200933B85 /* icon_154521_48.png */; };
+		7C8D33651CCD07E800933B85 /* Kanpe180.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8D33641CCD07E800933B85 /* Kanpe180.png */; };
 		7CBAFEC91C4A1B0E00AD4117 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAFEC81C4A1B0E00AD4117 /* StartViewController.swift */; };
 		7CBAFECB1C4A1C5A00AD4117 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBAFECA1C4A1C5A00AD4117 /* SettingViewController.swift */; };
 		7CC0C1171C4A2D1800E79561 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC0C1161C4A2D1800E79561 /* ResultViewController.swift */; };
@@ -66,10 +67,11 @@
 		7C5877B61C8B10FB00164843 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		7C5877B81C8B110A00164843 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		7C5877BA1C8B111200164843 /* PKHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PKHUD.framework; path = "Pods/../build/Debug-iphoneos/PKHUD.framework"; sourceTree = "<group>"; };
-		7C5877BC1C8B138B00164843 /* icon_154521_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_154521_48.png; path = ../../../../../Downloads/icon_154521_48.png; sourceTree = "<group>"; };
 		7C6ACA611C9710FA00E77D56 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
 		7C6D7B511C721F9200F85D01 /* icon_163001_48@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_163001_48@2x.png"; sourceTree = "<group>"; };
 		7C6D7B571C74A78D00F85D01 /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		7C8D33621CCD07D200933B85 /* icon_154521_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_154521_48.png; sourceTree = "<group>"; };
+		7C8D33641CCD07E800933B85 /* Kanpe180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Kanpe180.png; path = Assets.xcassets/AppIcon.appiconset/Kanpe180.png; sourceTree = "<group>"; };
 		7CBAFEC81C4A1B0E00AD4117 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		7CBAFECA1C4A1C5A00AD4117 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		7CC0C1161C4A2D1800E79561 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
@@ -150,11 +152,12 @@
 				7C3A60141C3AD46D00B01F38 /* icon_122481_48@2x.png */,
 				7CC0C1241C4A55F100E79561 /* icon_133001_48@2x.png */,
 				7C6D7B511C721F9200F85D01 /* icon_163001_48@2x.png */,
-				7C5877BC1C8B138B00164843 /* icon_154521_48.png */,
+				7C8D33621CCD07D200933B85 /* icon_154521_48.png */,
 				7CC0C1261C4A5AD200E79561 /* tit@2x.png */,
 				7C3A60181C3AD4F000B01F38 /* Default-568h@2x.png */,
 				7C3A60191C3AD4F000B01F38 /* Default-667h@2x.png */,
 				7C3A601A1C3AD4F000B01F38 /* Default-736h@3x.png */,
+				7C8D33641CCD07E800933B85 /* Kanpe180.png */,
 				7C3A60101C3AD43600B01F38 /* Cre@2x.png */,
 				7CC0C11A1C4A3C6D00E79561 /* Sai@2x.png */,
 				7CC0C1221C4A558D00E79561 /* いーすとkann.png */,
@@ -243,7 +246,6 @@
 			files = (
 				7C3A60121C3AD43600B01F38 /* Cre@2x.png in Resources */,
 				7CC0C12B1C4A61C400E79561 /* Main3.5.storyboard in Resources */,
-				7C5877BD1C8B138B00164843 /* icon_154521_48.png in Resources */,
 				7C5877B51C8B03D100164843 /* icon_154431_48.png in Resources */,
 				7C6D7B521C721F9200F85D01 /* icon_163001_48@2x.png in Resources */,
 				7CC0C1251C4A55F100E79561 /* icon_133001_48@2x.png in Resources */,
@@ -251,6 +253,8 @@
 				7C23C2391C81987D0059AE0E /* Lic@2x.png in Resources */,
 				7C3A60051C3AD3E700B01F38 /* LaunchScreen.storyboard in Resources */,
 				7C3A601C1C3AD4F000B01F38 /* Default-667h@2x.png in Resources */,
+				7C8D33651CCD07E800933B85 /* Kanpe180.png in Resources */,
+				7C8D33631CCD07D200933B85 /* icon_154521_48.png in Resources */,
 				7C3A60021C3AD3E700B01F38 /* Assets.xcassets in Resources */,
 				7CC0C1211C4A553800E79561 /* She@2x.png in Resources */,
 				7CC0C11B1C4A3C6D00E79561 /* Sai@2x.png in Resources */,
